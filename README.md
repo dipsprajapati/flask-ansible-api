@@ -2,7 +2,7 @@
 
 This is a simple flask api to run Ansible playbooks and adhoc commands
 
-## Instalation
+## Installation
 
 This is not a production grade api. To start the dev environemt running follow below mentioned steps.
 
