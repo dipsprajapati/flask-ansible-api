@@ -1,8 +1,8 @@
-#flask-ansible-api
+# flask-ansible-api
 
 This is a simple flask api to run Ansible playbooks and adhoc commands
 
-##Instalation
+## Instalation
 
 This is not a production grade api. To start the dev environemt running follow below mentioned steps.
 
@@ -14,7 +14,7 @@ This is not a production grade api. To start the dev environemt running follow b
 
 This will start the dev server at http://127.0.0.1:5000
 
-##API Endpoints
+## API Endpoints
 1. POST /register --> register your credentials with parameters username and password
     Body:
     {
