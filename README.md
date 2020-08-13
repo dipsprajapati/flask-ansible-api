@@ -16,11 +16,13 @@ This will start the dev server at http://127.0.0.1:5000
 
 ## API Endpoints
 1. POST /register --> register your credentials with parameters username and password
+    
     Body:
     {
         "username": "username",
         "password": "password"
     }
+    
 2. GET /auth --> Get the auth token
 3. POST /playbook/<playbook-name> --> Run the playbook with the inventory name provided in body
     Body:
